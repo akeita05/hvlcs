@@ -15,8 +15,8 @@
 hvlcs/
 ├── src/
 │   ├── hvlcs.py           #main hvlcs algorithm
-│   ── generate_tests.  #genGenerates 10 nontrivial test inputs
-│   └── benchmark.p     #times each test and produces runtime_plot.png
+│   ── generate_tests.py  #genGenerates 10 nontrivial test inputs
+│   └── benchmark.py     #times each test and produces runtime_plot.png
 ├── data/
 │   ├── example.in      #worked example from the assignment
 │   └── test01.in … test10.in1 #10 nontrivial inputs (|A|,|B| ≥ 25)
