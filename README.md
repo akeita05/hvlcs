@@ -16,12 +16,12 @@ hvlcs/
 ├── src/
 │   ├── hvlcs.py           #main hvlcs algorithm
 │   ── generate_tests.  #genGenerates 10 nontrivial test inputs
-│   └── benchmark.p   y#ti# Times each test and produces runtime_plot.png
+│   └── benchmark.p     #times each test and produces runtime_plot.png
 ├── data/
-│   ├── example.in      wo# Worked example from the assignment
-│   ├── example.out     ex# Expected output for example.in
-│   └── test01.in … test10.in10# 10 nontrivial inputs (|A|,|B| ≥ 25)
-├── runtime_plot.png     g# Graph frqm Question 1
+│   ├── example.in      #worked example from the assignment
+│   ├── example.out     #expected output for example.in
+│   └── test01.in … test10.in1 #10 nontrivial inputs (|A|,|B| ≥ 25)
+├── runtime_plot.png     #graph frqm Question 1
 └── README.md
 ```
 
