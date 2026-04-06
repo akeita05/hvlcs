@@ -14,13 +14,14 @@
 ```
 hvlcs/
 ├── src/
-│   ├── hvlcs.py           #main hvlcs algorithm
-│   ── generate_tests.py  #generates 10 nontrivial test inputs
-│   └── benchmark.py     #times each test and produces runtime_plot.png
+│   ├── hvlcs.py           #main HVLCS algorithm
+│   ├── generate_tests.py  #generates 10 nontrivial test inputs
+│   └── benchmark.py       #times each test and produces runtime_plot.png
 ├── data/
-│   ├── example.in      #worked example from the assignment
-│   └── test01.in … test10.in1 #10 nontrivial inputs (|A|,|B| ≥ 25)
-├── runtime_plot.png     #graph frqm Question 1
+│   ├── example.in         #worked example from the assignment
+│   ├── example.out        #expected output for example.in
+│   └── test01.in … test10.in   #10 nontrivial inputs (|A|,|B| ≥ 25)
+├── runtime_plot.png       #graph from Question 1
 └── README.md
 ```
 
